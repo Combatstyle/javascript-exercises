@@ -14,7 +14,6 @@ repeatString('hey', 3);
 repeatString('hello', 10);
 repeatString('hi', 1);
 repeatString('bye', 0);
-repeatString('bye', number);
 
 // Do not edit below this line
 module.exports = repeatString;
