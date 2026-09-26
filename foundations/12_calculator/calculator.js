@@ -14,10 +14,8 @@ const multiply = function(numbers) {
   return numbers.reduce((total, current) => total * current, 1);
 };
 
-const power = function() {
-	const power = function(base, exponent) {
-    return Math.pow(base, exponent);
-  }
+const power = function(base, exponent) {
+  return Math.pow(base, exponent);
 };
 
 const factorial = function() {
