@@ -7,7 +7,7 @@ describe('palindromes', () => {
   test('detects palindrome with numbers', () => {
     expect(palindromes('rac3e3car')).toBe(true);
   });
-  test.skip('detects palindrome with multiple words', () => {
+  test('detects palindrome with multiple words', () => {
     expect(palindromes('A car, a man, a maraca.')).toBe(true);
   });
   test.skip('ignores punctuation', () => {
