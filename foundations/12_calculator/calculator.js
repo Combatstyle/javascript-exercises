@@ -15,7 +15,9 @@ const multiply = function(numbers) {
 };
 
 const power = function() {
-	
+	const power = function(base, exponent) {
+    return Math.pow(base, exponent);
+  }
 };
 
 const factorial = function() {
