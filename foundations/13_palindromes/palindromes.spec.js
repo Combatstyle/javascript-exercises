@@ -13,7 +13,7 @@ describe('palindromes', () => {
   test('ignores punctuation', () => {
     expect(palindromes('racecar!')).toBe(true);
   });
-  test.skip('is case insensitive', () => {
+  test('is case insensitive', () => {
     expect(palindromes('Racecar!')).toBe(true);
   });
   test.skip('detects non-palindromes', () => {
